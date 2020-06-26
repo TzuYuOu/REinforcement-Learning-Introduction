@@ -4,6 +4,8 @@
 #### Introduction
 - Name : MountainCar-v0
 - Goal : Get an under powered car to the top of a hill (top = 0.5 position)
+<p align="center"><img src="assets/mountaincar-v0.jpg" width="480"\></p>
+
 #### Observation
 Type: Box(2)
 |  Num  |      Observation     | Min | Max |
