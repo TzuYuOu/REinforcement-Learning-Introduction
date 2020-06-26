@@ -29,6 +29,8 @@ Type: Discrete(3)
 - Random Action : [random_action.py](https://github.com/TzuYuOu/Reinforcement-Learning-Introduction/blob/master/random_action.py)
 - Hand-Made Policy : [hand_made_policy.py](https://github.com/TzuYuOu/Reinforcement-Learning-Introduction/blob/master/hand_made_policy.py)
 - Q-Learning : [q_learning.py](https://github.com/TzuYuOu/Reinforcement-Learning-Introduction/blob/master/q_learning.py)
+    - reward and episodes
+    <p align="left"><img src="assets/rewards.jpg" width="360"\></p>
 - Deep-Q-Learning
 
 
@@ -42,4 +44,6 @@ Type: Discrete(3)
 
 ## Reference
 - [MountainCar v0](https://github.com/openai/gym/wiki/MountainCar-v0)
+- [gkhayes/Mountain_Car.py](https://gist.github.com/gkhayes/3d154e0505e31d6367be22ed3da2e955)
+- [Reinforcement Learning 健身房：OpenAI Gym](https://medium.com/pyladies-taiwan/reinforcement-learning-%E5%81%A5%E8%BA%AB%E6%88%BF-openai-gym-e2ad99311efc)
 
