@@ -23,8 +23,8 @@ Type: Discrete(3)
 -1 for each time step, until the goal position of 0.5 is reached. As with MountainCarContinuous v0, there is no penalty for climbing the left hill, which upon reached acts as a wall.
 
 ## Different Methods
-- Random Action 
-- Hand-Made Policy
+- Random Action : [random_action.py](https://github.com/TzuYuOu/Reinforcement-Learning-Introduction/blob/master/random_action.py)
+- Hand-Made Policy : [hand_made_policy.py](https://github.com/TzuYuOu/Reinforcement-Learning-Introduction/blob/master/hand_made_policy.py)
 - Q-Learning
 - Deep-Q-Learning
 
