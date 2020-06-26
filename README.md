@@ -25,7 +25,7 @@ Type: Discrete(3)
 ## Different Methods
 - Random Action : [random_action.py](https://github.com/TzuYuOu/Reinforcement-Learning-Introduction/blob/master/random_action.py)
 - Hand-Made Policy : [hand_made_policy.py](https://github.com/TzuYuOu/Reinforcement-Learning-Introduction/blob/master/hand_made_policy.py)
-- Q-Learning
+- Q-Learning : [q_learning.py](https://github.com/TzuYuOu/Reinforcement-Learning-Introduction/blob/master/q_learning.py)
 - Deep-Q-Learning
 
 
