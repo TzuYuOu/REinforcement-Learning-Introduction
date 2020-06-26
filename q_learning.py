@@ -3,6 +3,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def choose_action(state, q_table, action_space, epsilon):
     if np.random.random_sample() < epsilon: # have ε probability to choose random action
         return action_space.sample()
@@ -44,8 +45,8 @@ if __name__ == "__main__":
         state_adj = np.round(state_adj, 0).astype(int)
     
         for t in range(200):   
-            # Render environment for last five episodes
-            if i >= episodes-5:
+            # Render environment for last 3 episodes
+            if i >= episodes-3:
                 env.render()
                 
             # Determine next action - epsilon greedy strategy
@@ -74,9 +75,8 @@ if __name__ == "__main__":
             tot_reward += reward
             state_adj = next_state_adj
 
-            # if done:
-            #     print('Episode finished after {} timesteps, total rewards {}'.format(t+1, tot_reward))
-            #     break
+            if done:
+                break
 
         # Track rewards
         reward_list.append(tot_reward)
@@ -90,6 +90,10 @@ if __name__ == "__main__":
             print('Episode {} Average Reward: {}'.format(i+1, ave_reward))
 
     env.close()
+
+    
+    
+    # plot reward and episode graph
     plt.plot(100*(np.arange(len(ave_reward_list)) + 1), ave_reward_list)
     plt.xlabel('Episodes')
     plt.ylabel('Average Reward')
